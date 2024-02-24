@@ -89,6 +89,7 @@ export default function DialogBox({ setUserSelectedData }) {
     setLoading(true);
     setOpen(true);
     setSelectedData(initialData);
+    if(selectedData.car.isOpen) setLoading(false);
   };
   const handleClose = () => {
     setOpen(false);
