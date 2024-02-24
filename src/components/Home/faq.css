@@ -1,0 +1,117 @@
+.drop-content {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+.faq-con{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}  
+.head-faq{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+    padding: 1rem ;
+}
+.faq-sub {
+   padding: 1rem ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Add a transition effect if desired */
+  
+   
+  }
+  .faq-sub:hover{
+    cursor: pointer;
+  }
+  .faq-sub div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  .drop-main{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* color: #1E0C60; */
+  }
+  .drop-content{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E0C60;
+    padding: 1rem 0.5rem;
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 600px){
+  .faq-con{
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      /* border: 1px solid black; */
+  }  
+  .head-faq{
+      font-family: Lato;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #1E0C60;
+      padding: 1rem ;
+  }
+  .faq-sub {
+     padding: 1rem ;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+      transition: box-shadow 0.3s ease-in-out; /* Add a transition effect if desired */
+    
+     
+    }
+    .faq-sub:hover{
+      cursor: pointer;
+    }
+    .faq-sub div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 0.5rem;
+    }
+    .drop-main{
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      /* color: #1E0C60; */
+    }
+    .drop-content{
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #1E0C60;
+      padding: 1rem 0.5rem;
+    }
+  
+  }

@@ -1,0 +1,128 @@
+.header-section {
+  /* width: 100%; */
+  height: 5.5rem;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0rem;
+  background-color: #fffff0;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.logo-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  padding-left: 2rem;
+}
+.logo-section img {
+  width: 10rem;
+  height: 4rem;
+}
+.logo-section img:hover {
+  cursor: pointer;
+}
+.nav-section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 2rem;
+  column-gap: 3rem;
+  background-color: rgba(30, 12, 96, 1);
+}
+/* 2 */
+nav-section-2-sub {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 2rem;
+  column-gap: 3rem;
+  color: rgba(30, 12, 96, 1);
+}
+.nav-section p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.nav-sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-sub-section:hover {
+  cursor: pointer;
+}
+.nav-sub-section img {
+  width: 2rem;
+  height: 2rem;
+}
+.login-button {
+  width: 5rem;
+  height: 2rem;
+  color: rgba(30, 12, 96, 1);
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.login-button:hover {
+  cursor: pointer;
+}
+.mobile-view {
+  display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .header-section {
+    display: none;
+  }
+  .header-mobileview {
+    display: block;
+    height: 5rem;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+  }
+  .mobile-view {
+    display: block;
+  }
+  .mobileview-logo {
+    width: 6rem;
+    height: 3rem;
+  }
+  .mobileview-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .menu-list {
+    display: block;
+    /* Other styles for the menu when it's visible */
+  }
+
+  .menu-list.hidden {
+    display: none;
+  }
+  .menu-list p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .menu-list p:hover {
+    cursor: pointer;
+  }
+}

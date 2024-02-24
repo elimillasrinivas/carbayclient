@@ -1,0 +1,240 @@
+{
+  "general": {
+    "header": {
+      "title": "Car Service",
+      "desc": "Now hassle-free and reliable car service in Bangalore right at your doorstep.",
+      "sub-desc": "Automovill care for your car the way you do. And we provide the best car service with skilled technicians, auto-experts, and use automated tools and machinery."
+    },
+    "lists": {
+      "standard": {
+        "title": "Standard Service",
+        "list": [
+          "Engine Oil Replaced",
+          "Oil Filter Replaced",
+          "Air Filter Cleaning",
+          "Coolant - Top up",
+          "Brake Oil - Top up",
+          "Battery Water Top up",
+          "Wiper Fluid Top Up",
+          "Front Brake Pad Service",
+          "Rear Brake Shoes Service",
+          "Caliper Greasing",
+          "AC Cooling Check-Up",
+          "Heater/Spark Plugs-Check up",
+          "Interior Vacuuming",
+          "Water Washing",
+          "Complete Electrical Check up",
+          "All Labour Included"
+        ],
+        "img": "url"
+      },
+      "comprehensive": {
+        "title": "Comprehensive Service",
+        "list": [
+          "Engine Oil Replaced",
+          "Oil Filter Replaced",
+          "Air Filter Replaced",
+          "Wiper Fluid Replacement",
+          "Coolant - Top up",
+          "Brake Oil - Top up",
+          "Gear Oil- Top up",
+          "Battery Water-Top up",
+          "Front Brake Pad Service",
+          "Rear Brake Shoes Service",
+          "Caliper Greasing",
+          "AC Filter Cleaning",
+          "Heater/Spark Plugs-Check up",
+          "Suspension Lubrication",
+          "AC Cooling Check up",
+          "Fuel Filter Check up",
+          "Complete Electrical Check up",
+          "Tyre Rotation",
+          "Interior Vacuuming",
+          "Water Washing",
+          "All Labour Included"
+        ],
+        "img": "url"
+      }
+    },
+    "howdoesitwork": "url",
+    "content": {
+      "title": "Benefit OF Car Service with Automovill",
+      "benefits": {
+        "convenienceAndRelief": [
+          "No need to step out. Car service right at your doorstep",
+          "Multiple easy online payment options",
+          "Quick Delivery as we understand your busy schedule and value of time"
+        ],
+        "absoluteHonesty": [
+          "With our open procedures and real-time information",
+          "Transparent pricing. So, no worries",
+          "Complete analysis and genuine spare parts"
+        ],
+        "qualityControl": [
+          "High-quality services with highly-trained technicians",
+          "Greatest auto servicing experience by using authentic spare parts",
+          "Latest and Automated Tools & Equipments",
+          "Best Engine Oil",
+          "Ensured Service Warranty"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQs)",
+      "questions": [
+        {
+          "question": "Which Engine oil do you use for Standard Service and Comprehensive Service?",
+          "answer": "We generally use Total engine oil with the grades 10W30 for mineral and 5W40/5W30 for synthetic. However for specific needs we do change oil brands as well. Automovill has pan-India tie up with all major oil brands."
+        },
+        {
+          "question": "How much time does it take to get my General Service done?",
+          "answer": "Including pick up and drop, it takes 6 hours to get the general service of a car done. It also includes a high-quality car-wash with interior vacuuming and dashboard polishing."
+        },
+        {
+          "question": "Any extra charges apart from the mentioned charges in the Services Page?",
+          "answer": "There is no change in the prices that are mentioned in the Services Page. The prices are GST-inclusive. For any additional work or cost that we may come across while inspecting your car, we shall notify you for your consent before proceeding with that work."
+        },
+        {
+          "question": "Do I get any warranty for the Service that’s done?",
+          "answer": "You get 6 months or 5000 KMs (whichever is earlier) warranty for any part which is replaced."
+        },
+        {
+          "question": "What if there are issues after servicing i.e. ‘post-service’?",
+          "answer": "Automovill attends to and solves any issue which is found ‘post-service’. You are eligible for a free inspection post service-completion or if any issue is found ‘post-service’."
+        }
+      ]
+    }
+  },
+  "denting": {
+    "header": {
+      "title": "Denting and Painting Services",
+      "desc": "Fixing dents and scratches on the car is an art in which we have mastered ourselves."
+    },
+    "lists": {
+      "prepanel": {
+        "title": "Per Panel Painting",
+        "list": [
+          "Dent/Scratch Removal",
+          "Painting as per the Standard Code",
+          "Multi-Layer Coating"
+        ],
+        "img": "url"
+      },
+      "fullbody": {
+        "title": "Full Body Painting",
+        "list": [
+          "Full Body Dent/Scratch Removal",
+          "Painting as per the Standard Code/ Multiple coats",
+          "Full Body Rubbing/Polishing",
+          "Complementary General Checkup",
+          "Complementary Interior Cleaning(conditional)**",
+          "Engine Compartment Painting(conditional)**",
+          "Interior Floor & Door Hinges Painting(conditional)**",
+          "Dickey Floor & Dickey door inside Painting"
+        ],
+        "img": "url"
+      },
+      "alloy": {
+        "title": "Alloy painting",
+        "list": [
+          "Alloy Wheel Painting",
+          "Calibre Painting",
+          "Complementary Tyre Polishing**"
+        ],
+        "img": "url"
+      }
+    },
+    "howdoesitwork": "url",
+    "content": [
+      {
+        "title": "Denting and Painting Issues",
+        "items": [
+          "Collision with other vehicles",
+          "Adverse weather Conditions",
+          "Rusting",
+          "Tight Parking Spots"
+        ]
+      },
+      {
+        "title": "What includes in Denting and Painting Service?",
+        "items": [
+          "Dent and Scratch removal",
+          "Remove the welds left over after the use of dent puller",
+          "Surfacer Application",
+          "Paint Masking",
+          "Paint Application",
+          "Rubbing and Polishing"
+        ]
+      },
+      {
+        "title": "Why Choose Automovill for Denting/Painting Service?",
+        "items": [
+          "Skilled Technicians",
+          "Fast & Effective Services",
+          "Free Pick up and Drop",
+          "Easy Payment Options"
+        ]
+      }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions (FAQs)",
+      "questions": [
+        {
+          "question": "Do I get a warranty on denting/painting service?",
+          "answer": "Yes. You are eligible for 2 years of paint-warranty for any denting & painting service that is done by Automovill. Additionally, Automovill gives 1 year of Rust-Free warranty on the work done."
+        },
+        {
+          "question": "Can you match the Paint Colour Exactly to My Car?",
+          "answer": "Yes, Automovill uses the exact color code which is mentioned in the RC copy of the car (when painting is done in the car). However, we do see a slight mismatch in case the color on the non-painted panels is faded already. In order to match, Automovill provides complementary polishing of the car after every painting."
+        },
+        {
+          "question": "How much time does Denting & Painting take (for Panel/ Full-body Paint) ?",
+          "answer": "For the painting process to be fool-proof it takes a minimum of 14 hours (as it includes - surfacing, putty work, coat 1-2-3, polishing, washing). We need to keep a minimum of 3 hours for drying with natural light for the color to exactly match. For full-body painting, it takes 7-10 working days because we remove the seats, mats, and other accessories from the car before painting as a hygiene-measure."
+        },
+        {
+          "question": "Do you provide this service under Insurance?",
+          "answer": "Automovill has tie-ups with all major insurance-providers for all accidental repair."
+        },
+        {
+          "question": "Does Alloy-Wheel painting get covered in these Packages?",
+          "answer": "Alloy-wheel painting is not a part of the car-body painting. It has an additional cost."
+        },
+        {
+          "question": "Should I go with Solid Painting or Metallic Painting?",
+          "answer": "We shall proceed as per the color code mentioned in the RC of the car. Alternatively, we can discuss the mode of painting first and can decide on the color & type of paint. Please call us at +917353600400 to discuss with us."
+        }
+      ]
+    }
+  },
+  "ac": {
+    "header": {
+      "title": "Best Car AC Services and Repair in Bangalore"
+    },
+    "lists": {
+      "acService": {
+        "title": "AC Service",
+        "items": [
+          "AC Gas",
+          "AC Filter - Cleaning",
+          "Condenser - Clean",
+          "AC Vents - Clean",
+          "Compressor Oil",
+          "Leakage Check"
+        ],
+        "img": "https://s3.ap-south-1.amazonaws.com/prodimages.automovill.com/services/ac-service.webp"
+      },
+      "electricalRepair": {
+        "title": "Electrical Repair",
+        "items": [
+          "Electrical Issues",
+          "MIL Light Issue",
+          "Head Light Issue",
+          "Tail Light Issue",
+          "Warning Light Issue"
+        ],
+        "img": "https://s3.ap-south-1.amazonaws.com/prodimages.automovill.com/services/electrical_repair.webp"
+      }
+    },
+    "howdoesitwork": "url"
+  }
+}

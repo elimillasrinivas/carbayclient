@@ -1,0 +1,516 @@
+.home-con{
+   /* width: 100%; */
+   height: 85vh;
+   /* border: 1px solid black;   */
+   display: grid;
+   grid-template-columns: 35% 65%;
+
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #1E0C60;
+}
+.home-content p{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 3.5rem;
+    color: #1E0C60;
+
+}
+.home-image{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 12, 96, 1);
+}
+.home-image img{
+    width: 90%;
+    height: 90%;
+}
+/* home services */
+.home-services{
+    border: 1px solid black;
+    padding: 1.5rem 0rem;
+    
+}
+.service-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-services h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+   
+    color: #1E0C60;
+    display: inline-block;
+    border-bottom: 1px solid #1E0C60 ;
+    text-align: center;
+}
+.home-services p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.service-types-home{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    padding: 2rem 4rem;
+    
+}
+.service-sub{
+    border: 1px solid #FFC107;
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    min-width: 10rem;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #f6f6f6; */
+    transition: transform 0.3s ease-in-out; 
+}
+.service-sub:hover{
+   cursor: pointer;
+   transform: scale(1.10);
+}
+.service-sub img{
+    width: 3rem;
+    height: 1.5rem;
+  
+}
+.service-sub p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+
+}
+.why-carbay{
+    border: 1px solid black;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.why-carbay-content h1{
+    font-family: Lato;
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 117px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E0C60;
+
+}
+.why-carby-image h1{
+    display: none;
+   
+}
+.why-carbay-content p{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin: 1rem;
+
+}
+.why-carby-image img{
+    width: 90%;
+    height: 90%;
+}
+.how-it-works{
+   /* border: 1px solid black; */
+   padding: 1rem;
+}
+.how-it-works-head{
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+}
+.how-it-works-main{
+    margin: 1rem 0rem;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.how-it-works-sub {
+    width: 10rem;
+    height: 10rem; 
+    border: 2px solid #FFC107;
+    background-color: #f6f6f6;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+.how-it-works-sub:hover{
+    cursor: pointer;
+   transform: scale(1.08);
+}
+.how-it-works-sub img{
+    width: 4rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+}
+.how-it-works-sub p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+    padding: 0.5rem;
+}
+/* advantages */
+
+.advantages{
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+}
+.advantages-head{
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1rem;
+    color: #1E0C60;
+
+}
+.advantages-types{
+    /* border: 1px solid black; */
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-types-sub{
+    width: 10rem;
+    height: 10rem;
+    padding: 0.5rem;
+    border: 2px solid #FFC107;
+    background-color: #f6f6f6;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+.advantages-types-sub:hover{
+    cursor: pointer;
+   transform: scale(1.08);
+}
+.advantages-types-sub img{
+    width: 4rem;
+    height: 3.5rem;
+}
+.advantages-types-sub p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+}
+.faq-home{
+    /* border: 1px solid black; */
+    padding: 2rem;
+}
+/* home service */
+.home-service-main{
+    border: 1px solid black;
+    padding: 2rem 1.5rem;
+}
+.workshop-home{
+    margin: 2rem;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.workshop-home h1{
+    font-family: Lato;
+    font-size: 98px;
+    font-weight: 800;
+    line-height: 117px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+
+}
+.workshop-home p{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #1E0C60;
+margin: 1rem;
+}
+
+/* responsive */
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .home-con{
+        /* width: 100%; */
+        height: auto;
+        /* border: 1px solid black;   */
+        display: grid;
+        grid-template-columns: 100%;
+     
+     }
+     .home-content{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-bottom: none;
+     }
+     .home-content p{
+         font-size: 40px;
+         line-height: 50px;
+         padding: 1rem;
+        text-align: left;
+     }
+     .home-image{
+         width: 100%;
+         height: auto;
+         background-color: white;
+     }
+  
+     .home-services{
+        /* border: 1px solid black; */
+        padding: 1rem;
+        
+    }
+    .service-head{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .home-services h1{
+        font-size: 30px;
+        line-height: 48px;
+       margin-bottom: 1rem;
+    }
+    .home-services p{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .service-types-home{
+        /* border: 1px solid black; */
+        row-gap: 1rem;
+        padding: 1rem 2rem;
+        
+    }
+    .service-sub{
+        border: 1px solid #1E0C60;
+        padding: 0.7rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+        min-width: 90%;
+        position: relative;
+        overflow: hidden;
+        
+        transition: transform 0.3s ease-in-out; 
+    }
+    .service-sub:hover{
+       cursor: pointer;
+       transform: scale(1.20);
+    }
+    .service-sub img{
+        width: 3rem;
+        height: 1.5rem;
+      
+    }
+    .service-sub p{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1E0C60;
+    
+    }
+    /* why car bay */
+    .why-carbay{
+        /* border: 1px solid black; */
+        margin: 0rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .why-carbay-content h1{
+       display: none;
+    }
+    .why-carby-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .why-carby-image img{
+        width: 90%;
+        height: 90%;
+    }
+    .why-carby-image h1{
+        display: block;
+        font-family: Lato;
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1E0C60;
+    }
+    .how-it-works{
+        /* border: 1px solid black; */
+        padding: 1rem;
+     }
+     .how-it-works-head{
+         font-family: Lato;
+         font-size: 20px;
+         line-height: 38px;
+         text-align: left;
+     }
+     .how-it-works-main{
+         /* border: 1px solid black;*/
+         display: flex;
+         padding: 1rem 0.5rem;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         row-gap: 1rem;
+     }
+     
+        .how-it-works-sub {
+            width: 9.5rem;
+            height: 8rem; 
+            border: 2px solid #FFC107;
+            background-color: #f6f6f6;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: transform 0.3s ease-in-out;
+        
+     }
+     .advantages{
+        /* border: 1px solid black; */
+        padding: 1rem 1rem;
+    }
+    .advantages-head{
+        text-align: left;
+        font-size: 20px;
+        line-height: 48px;
+        margin: 0rem;
+    }
+    .advantages-types{
+        /* border: 1px solid black; */
+        padding: 2rem 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .advantages-types-sub{
+        width: 8rem;
+        height: 8rem;
+        padding: 0.5rem;
+        border: 2px solid #FFC107;
+        background-color: #f6f6f6;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        transition: transform 0.3s ease-in-out;
+    
+    }
+    .home-service-main{
+        /* border: 1px solid black; */
+        padding: 1rem 0.5rem;
+    }
+    .workshop-home{
+        margin: 0rem;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    .workshop-home h1{
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1E0C60;
+    
+    }
+    .workshop-home p{
+        font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E0C60;
+    margin: 0.5rem;
+    }
+    .faq-home{
+        /* border: 1px solid black; */
+        padding: 0.5rem;
+    }
+
+}
