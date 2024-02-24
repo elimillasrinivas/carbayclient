@@ -86,6 +86,7 @@ export default function DialogBox({ setUserSelectedData }) {
   const [selectedData, setSelectedData] = React.useState(initialData);
   const [searchedCarModel, setSearchedCarModel] = React.useState([]);
   const handleClickOpen = () => {
+    setLoading(true);
     setOpen(true);
     setSelectedData(initialData);
   };
@@ -112,7 +113,6 @@ export default function DialogBox({ setUserSelectedData }) {
       const models = await axios.get(
         `https://carbay.onrender.com/api/services/get-images/${data.title}`
       );
-      enqueueSnackbar('Selection successful!', { variant: 'success' });
       setCarModels(models.data.data);
       setSearchedCarModel(models.data.data);
       onClickFunction({
@@ -309,6 +309,7 @@ export default function DialogBox({ setUserSelectedData }) {
                         <img
                           onClick={() => {
                             handleClose();
+                              enqueueSnackbar('Selection successful!', { variant: 'success' });
                             setUserSelectedData({
                               car: selectedData.car.name,
                               model: selectedData.model.name,
